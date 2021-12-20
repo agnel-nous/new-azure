@@ -32,8 +32,8 @@
 				<configuration>
 					<cloudHubDeployment>
 						<uri>https://anypoint.mulesoft.com</uri>
-						<username>agnelr</username>
-						<password>Nous@1234</password>
+						<username>${username}</username>
+						<password>${password}</password>
 						<muleVersion>4.4.0</muleVersion>
 						<applicationName>maven-azure-deployment</applicationName>
 						<workers>1</workers>
